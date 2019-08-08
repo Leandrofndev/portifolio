@@ -1,0 +1,65 @@
+/* 
+    Created on : 01/11/2016, 07:40:58
+    Author     : Bruno
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+html, body{height: 100%;}
+img {max-width: 100%;}
+.clear{clear: both;}
+.font-zero{font-size: 0; float: left;}
+.linha{height: 100%; padding-top: 80px;}
+.box2 {width: 46%; margin: 0 1%; float: left;}
+.box3 {width: 32%; float: left;}
+.box4 {width: 23%; margin: 0 1%; float: left;}
+.meio{margin: 0 1%;}
+.cinza{background: #ccc;}
+
+/*FORMATAÇOES PARA O MENU*/
+header nav {background: #333; width: 100%; position: fixed; box-shadow: 0px 3px 3px #999;}
+.header-logo {float: left;}
+.menu {float: right; margin-top: 15px; margin-right: 15px;}
+.menu {list-style: none;}
+.menu li {display: inline-block;}
+.menu li a{text-decoration: none; color: #FFF; display: inline-block; padding: 8px 15px;}
+.menu li a:hover{background: #F60; border-radius: 5px;}
+
+/*FORMATAçÕES DO HOME*/
+.home{background:  url("../images/bg_poligonos.jpg"); background-size: cover; background-attachment: fixed; height: 100%;}
+.home h1 {margin: 0; padding-top: 120px; text-align: center; color: #FFF; font-size: 4em; text-shadow: 3px 3px 3px #333;}
+.home h2 {margin: 0; padding-top: 20px; text-align: center; color: #FFF; font-size: 2em; text-shadow: 3px 3px 3px #333;}
+.home p{text-align: center; padding-top: 200px;}
+
+/*FORMATAÇÕES PARA SERVIÇOS*/
+.servicos > h1 {text-align: center; padding-bottom: 80px; font-size: 4em;}
+.servicos .box3 {text-align: center; color: #333;}
+.box3 span {font-size: 3em; padding: 20px; border: 5px solid #333; border-radius: 100px;}
+.box3 h1 {padding: 20px 0;}
+
+/*FORMATACOES PARA PORTIFOLIO*/
+.portifolio {background: url("../images/bg_design.jpg"); background-size: cover; background-attachment: fixed;}
+.portifolio > h1 {text-align: center; padding-bottom: 0px; margin-bottom: 0px; font-size: 4em; color: #f60; text-shadow: 3px 3px 3px #333;}
+.portifolio > p {padding-bottom: 80px; text-align: center; font-size: 1.8em; font-weight: 300;}
+.portifolio .box4 img {background: #f60; padding: 5px; cursor: pointer;}
+
+/*FORMATAÇOES PARA O SOBRE*/
+.sobre > h1 {text-align: center; padding-bottom: 20px; font-size: 4em;}
+.sobre img {width: 200px; margin: 0 auto; display: block; border-radius: 100px;}
+.sobre p {width: 80%; text-align: center; font-size: 1.2em; line-height: 1.4em; padding-bottom: 15px; padding-top: 15px; margin: 0 auto;}
+
+/*FORMATAÇÕES PARA CONTATOS*/
+.contatos > h1 {text-align: center; padding-bottom: 20px; font-size: 4em; color: #f60;}
+.contatos label {display: block; font-size: 1.2em; padding-bottom: 15px;}
+.contatos label span {display: block; padding-bottom: 5px;}
+.contatos input, .contatos textarea {padding: 5px 8px; width: 100%;}
+.contatos input[type="submit"]{width: auto; margin: 0 auto; display: block; cursor: pointer;}
+.contatos h2 {padding-bottom: 25px;}
+.contatos .redes {list-style: none; padding-bottom: 100px;}
+.contatos .redes li {display: inline-block; padding: 0 8px; margin: 0 20px;}
+.redes li a {display: inline-block; text-decoration: none; color: #333; font-size: 1.6em;}
+.redes li a:hover{color: #F60;}
